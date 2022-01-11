@@ -1,0 +1,103 @@
+/* style.css */
+
+/* GLOBAL */
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  margin: 0;
+}
+
+button {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #3882f6;
+  padding: 0.5ch 3ch;
+  border: none;
+  border-radius: 6px;
+}
+
+.header, .content.one, .footer {
+  background-color: #1f2937;
+}
+
+.header {
+  padding: 0.5rem 15% 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  padding: 5rem 15%;
+}
+
+.left-right {
+  display: flex;
+  gap: 1rem;
+}
+
+/* CONTENT ONE */
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}  
+
+.header ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 1.5rem;
+  color: #e5e7eb;
+}
+
+.content.one h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.content.one p {
+  color: #e5e7eb;
+}
+
+.content.one .right {
+  display: flex;
+  justify-content: space-around;
+  background-color: grey;
+  color: #e5e7eb;
+  width: 100%;
+}
+
+.content.one #big-img {
+  align-self: center;
+}
+
+/* CONTENT THREE */
+
+.content.three {
+  color: #1f2937;
+  background-color: #e5e7eb;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.content.three .quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.content.three .quote-by {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 3rem;
+}
