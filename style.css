@@ -7,7 +7,7 @@ html {
   font-size: 18px;
 }
 
-h1 {
+h1, h2 {
   margin: 0;
 }
 
@@ -16,7 +16,7 @@ button {
   font-weight: bold;
   color: white;
   background-color: #3882f6;
-  padding: 0.5ch 3ch;
+  padding: 0.75ch 3ch;
   border: none;
   border-radius: 6px;
 }
@@ -78,6 +78,35 @@ button {
 
 .content.one #big-img {
   align-self: center;
+}
+
+/* CONTENT TWO */
+.content.two {
+  color: #1f2937;
+  padding-top: 0;
+}
+
+.content.two h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.content.two .examples {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.content.two .example {
+  display: flex;
+  flex-direction: column;
+}
+
+.content.two .box-img {
+  align-self: center;
+  border: blue;
 }
 
 /* CONTENT THREE */
