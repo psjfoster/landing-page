@@ -105,8 +105,11 @@ button {
 }
 
 .content.two .box-img {
+  width: 10rem;
   align-self: center;
-  border: blue;
+  border-style: solid;
+  border-width: 0.2rem;
+  border-color: #3882f6;
 }
 
 /* CONTENT THREE */
