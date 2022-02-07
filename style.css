@@ -96,20 +96,28 @@ button {
 .content.two .examples {
   display: flex;
   justify-content: space-around;
-  gap: 1rem;
 }
 
 .content.two .example {
   display: flex;
   flex-direction: column;
+  width: 20ch;
+  height: 20ch;
+  text-align: center;
+  align-items: center;
 }
 
 .content.two .box-img {
-  width: 10rem;
-  align-self: center;
+  display: flex;
+  width: 16ch;
+  padding: 3.5rem 0;
+  align-items: center;
+  justify-content: center;
   border-style: solid;
-  border-width: 0.2rem;
+  border-width: 0.25rem;
   border-color: #3882f6;
+  margin-bottom: 1rem;
+  border-radius: 1.5ch;
 }
 
 /* CONTENT THREE */
@@ -132,4 +140,27 @@ button {
   font-weight: bold;
   text-align: right;
   padding-right: 3rem;
+}
+
+/* CONTENT FOUR */
+
+.content.four {
+  display: flex;
+}
+
+.content.four * {
+  margin: 0;
+  border-style: none;
+  background-color: #3882f6;
+}
+
+.content.four .action {
+  padding: 2.5rem 10ch;
+  border-radius: 0.5ch 0 0 0.5ch;
+}
+
+.content.four button {
+  height: auto;
+  align-self: center;
+  justify-content: center;
 }
